@@ -1,0 +1,16 @@
+{
+  "name": "nativescript-atom-snippets",
+  "version": "1.0.0",
+  "description": "NativeScript Snippets",
+  "keywords": [
+    "TypeScript",
+    "NativeScript",
+    "Telerik"
+  ],
+  "repository": "https://github.com/NathanWalker/nativescript-atom-snippets.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
