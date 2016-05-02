@@ -499,5 +499,5 @@
     "body": 'width="$1"$2'
 
   "{N} Height Attribute":
-    "prefix": "height"
-    "body": 'height="$1"$2'
+    "prefix":"height"
+    "body":'height="$1"$2'
