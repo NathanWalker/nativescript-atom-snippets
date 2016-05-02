@@ -89,7 +89,7 @@
     "prefix": "nsdock"
     "body": """
       <DockLayout stretchLastChild="true">
-          <Label dock="top" text="I am on top!"></Label>
+        <Label dock="top" text="I am on top!"></Label>
       </DockLayout>
     """
 
@@ -97,7 +97,7 @@
     "prefix": "nsgrid"
     "body": """
       <GridLayout rows="$1" columns="$2">
-          $3
+        $3
       </GridLayout>
     """
 
@@ -105,10 +105,10 @@
     "prefix": "nsgrid_2x2"
     "body": """
       <GridLayout rows="*, *" columns="*, *">
-          <Label text="0, 0" row="0" col="0"></Label>
-          <Label text="0, 1" row="0" col="1"></Label>
-          <Label text="1, 0" row="1" col="0"></Label>
-          <Label text="1, 1" row="1" col="1"></Label>
+        <Label text="0, 0" row="0" col="0"></Label>
+        <Label text="0, 1" row="0" col="1"></Label>
+        <Label text="1, 0" row="1" col="0"></Label>
+        <Label text="1, 1" row="1" col="1"></Label>
       </GridLayout>
     """
 
@@ -116,10 +116,10 @@
     "prefix": "nsgrid_2x2_auto"
     "body": """
       <GridLayout rows="auto, auto" columns="auto, auto">
-          <Label text="0, 0" row="0" col="0"></Label>
-          <Label text="0, 1" row="0" col="1"></Label>
-          <Label text="1, 0" row="1" col="0"></Label>
-          <Label text="1, 1" row="1" col="1"></Label>
+        <Label text="0, 0" row="0" col="0"></Label>
+        <Label text="0, 1" row="0" col="1"></Label>
+        <Label text="1, 0" row="1" col="0"></Label>
+        <Label text="1, 1" row="1" col="1"></Label>
       </GridLayout>
     """
 
@@ -127,15 +127,15 @@
     "prefix": "nsgrid_3x3"
     "body": """
       <GridLayout rows="*, *, *" columns="*, *, *">
-          <Label text="0, 0" row="0" col="0"></Label>
-          <Label text="0, 1" row="0" col="1"></Label>
-          <Label text="0, 2" row="0" col="2"></Label>
-          <Label text="1, 0" row="1" col="0"></Label>
-          <Label text="1, 1" row="1" col="1"></Label>
-          <Label text="1, 2" row="1" col="2"></Label>
-          <Label text="2, 0" row="2" col="0"></Label>
-          <Label text="2, 1" row="2" col="1"></Label>
-          <Label text="2, 2" row="2" col="2"></Label>
+        <Label text="0, 0" row="0" col="0"></Label>
+        <Label text="0, 1" row="0" col="1"></Label>
+        <Label text="0, 2" row="0" col="2"></Label>
+        <Label text="1, 0" row="1" col="0"></Label>
+        <Label text="1, 1" row="1" col="1"></Label>
+        <Label text="1, 2" row="1" col="2"></Label>
+        <Label text="2, 0" row="2" col="0"></Label>
+        <Label text="2, 1" row="2" col="1"></Label>
+        <Label text="2, 2" row="2" col="2"></Label>
       </GridLayout>
     """
 
@@ -143,15 +143,15 @@
     "prefix": "nsgrid_3x3_auto"
     "body": """
       <GridLayout rows="auto, auto, auto" columns="auto, auto, auto">
-          <Label text="0, 0" row="0" col="0"></Label>
-          <Label text="0, 1" row="0" col="1"></Label>
-          <Label text="0, 2" row="0" col="2"></Label>
-          <Label text="1, 0" row="1" col="0"></Label>
-          <Label text="1, 1" row="1" col="1"></Label>
-          <Label text="1, 2" row="1" col="2"></Label>
-          <Label text="2, 0" row="2" col="0"></Label>
-          <Label text="2, 1" row="2" col="1"></Label>
-          <Label text="2, 2" row="2" col="2"></Label>
+        <Label text="0, 0" row="0" col="0"></Label>
+        <Label text="0, 1" row="0" col="1"></Label>
+        <Label text="0, 2" row="0" col="2"></Label>
+        <Label text="1, 0" row="1" col="0"></Label>
+        <Label text="1, 1" row="1" col="1"></Label>
+        <Label text="1, 2" row="1" col="2"></Label>
+        <Label text="2, 0" row="2" col="0"></Label>
+        <Label text="2, 1" row="2" col="1"></Label>
+        <Label text="2, 2" row="2" col="2"></Label>
       </GridLayout>
     """
 
@@ -159,18 +159,18 @@
     "prefix": "nsgrid_4x3"
     "body": """
       <GridLayout rows="*, *, *, *" columns="*, *, *">
-          <Label text="0, 0" row="0" col="0"></Label>
-          <Label text="0, 1" row="0" col="1"></Label>
-          <Label text="0, 2" row="0" col="2"></Label>
-          <Label text="1, 0" row="1" col="0"></Label>
-          <Label text="1, 1" row="1" col="1"></Label>
-          <Label text="1, 2" row="1" col="2"></Label>
-          <Label text="2, 0" row="2" col="0"></Label>
-          <Label text="2, 1" row="2" col="1"></Label>
-          <Label text="2, 2" row="2" col="2"></Label>
-          <Label text="3, 0" row="3" col="0"></Label>
-          <Label text="3, 1" row="3" col="1"></Label>
-          <Label text="3, 2" row="3" col="2"></Label>
+        <Label text="0, 0" row="0" col="0"></Label>
+        <Label text="0, 1" row="0" col="1"></Label>
+        <Label text="0, 2" row="0" col="2"></Label>
+        <Label text="1, 0" row="1" col="0"></Label>
+        <Label text="1, 1" row="1" col="1"></Label>
+        <Label text="1, 2" row="1" col="2"></Label>
+        <Label text="2, 0" row="2" col="0"></Label>
+        <Label text="2, 1" row="2" col="1"></Label>
+        <Label text="2, 2" row="2" col="2"></Label>
+        <Label text="3, 0" row="3" col="0"></Label>
+        <Label text="3, 1" row="3" col="1"></Label>
+        <Label text="3, 2" row="3" col="2"></Label>
       </GridLayout>
     """
 
@@ -178,18 +178,18 @@
     "prefix": "nsgrid_4x3_auto"
     "body": """
       <GridLayout rows="auto, auto, auto, auto" columns="auto, auto, auto">
-          <Label text="0, 0" row="0" col="0"></Label>
-          <Label text="0, 1" row="0" col="1"></Label>
-          <Label text="0, 2" row="0" col="2"></Label>
-          <Label text="1, 0" row="1" col="0"></Label>
-          <Label text="1, 1" row="1" col="1"></Label>
-          <Label text="1, 2" row="1" col="2"></Label>
-          <Label text="2, 0" row="2" col="0"></Label>
-          <Label text="2, 1" row="2" col="1"></Label>
-          <Label text="2, 2" row="2" col="2"></Label>
-          <Label text="3, 0" row="3" col="0"></Label>
-          <Label text="3, 1" row="3" col="1"></Label>
-          <Label text="3, 2" row="3" col="2"></Label>
+        <Label text="0, 0" row="0" col="0"></Label>
+        <Label text="0, 1" row="0" col="1"></Label>
+        <Label text="0, 2" row="0" col="2"></Label>
+        <Label text="1, 0" row="1" col="0"></Label>
+        <Label text="1, 1" row="1" col="1"></Label>
+        <Label text="1, 2" row="1" col="2"></Label>
+        <Label text="2, 0" row="2" col="0"></Label>
+        <Label text="2, 1" row="2" col="1"></Label>
+        <Label text="2, 2" row="2" col="2"></Label>
+        <Label text="3, 0" row="3" col="0"></Label>
+        <Label text="3, 1" row="3" col="1"></Label>
+        <Label text="3, 2" row="3" col="2"></Label>
       </GridLayout>
     """
 
@@ -197,22 +197,22 @@
     "prefix": "nsgrid_4x4"
     "body": """
       <GridLayout rows="*, *, *, *" columns="*, *, *, *">
-          <Label text="0, 0" row="0" col="0"></Label>
-          <Label text="0, 1" row="0" col="1"></Label>
-          <Label text="0, 2" row="0" col="2"></Label>
-          <Label text="0, 3" row="0" col="3"></Label>
-          <Label text="1, 0" row="1" col="0"></Label>
-          <Label text="1, 1" row="1" col="1"></Label>
-          <Label text="1, 2" row="1" col="2"></Label>
-          <Label text="1, 3" row="1" col="3"></Label>
-          <Label text="2, 0" row="2" col="0"></Label>
-          <Label text="2, 1" row="2" col="1"></Label>
-          <Label text="2, 2" row="2" col="2"></Label>
-          <Label text="2, 3" row="2" col="3"></Label>
-          <Label text="3, 0" row="3" col="0"></Label>
-          <Label text="3, 1" row="3" col="1"></Label>
-          <Label text="3, 2" row="3" col="2"></Label>
-          <Label text="3, 3" row="3" col="3"></Label>
+        <Label text="0, 0" row="0" col="0"></Label>
+        <Label text="0, 1" row="0" col="1"></Label>
+        <Label text="0, 2" row="0" col="2"></Label>
+        <Label text="0, 3" row="0" col="3"></Label>
+        <Label text="1, 0" row="1" col="0"></Label>
+        <Label text="1, 1" row="1" col="1"></Label>
+        <Label text="1, 2" row="1" col="2"></Label>
+        <Label text="1, 3" row="1" col="3"></Label>
+        <Label text="2, 0" row="2" col="0"></Label>
+        <Label text="2, 1" row="2" col="1"></Label>
+        <Label text="2, 2" row="2" col="2"></Label>
+        <Label text="2, 3" row="2" col="3"></Label>
+        <Label text="3, 0" row="3" col="0"></Label>
+        <Label text="3, 1" row="3" col="1"></Label>
+        <Label text="3, 2" row="3" col="2"></Label>
+        <Label text="3, 3" row="3" col="3"></Label>
       </GridLayout>
     """
 
@@ -220,22 +220,22 @@
     "prefix": "nsgrid_4x4_auto"
     "body": """
       <GridLayout rows="auto, auto, auto, auto" columns="auto, auto, auto, auto">
-          <Label text="0, 0" row="0" col="0"></Label>
-          <Label text="0, 1" row="0" col="1"></Label>
-          <Label text="0, 2" row="0" col="2"></Label>
-          <Label text="0, 3" row="0" col="3"></Label>
-          <Label text="1, 0" row="1" col="0"></Label>
-          <Label text="1, 1" row="1" col="1"></Label>
-          <Label text="1, 2" row="1" col="2"></Label>
-          <Label text="1, 3" row="1" col="3"></Label>
-          <Label text="2, 0" row="2" col="0"></Label>
-          <Label text="2, 1" row="2" col="1"></Label>
-          <Label text="2, 2" row="2" col="2"></Label>
-          <Label text="2, 3" row="2" col="3"></Label>
-          <Label text="3, 0" row="3" col="0"></Label>
-          <Label text="3, 1" row="3" col="1"></Label>
-          <Label text="3, 2" row="3" col="2"></Label>
-          <Label text="3, 3" row="3" col="3"></Label>
+        <Label text="0, 0" row="0" col="0"></Label>
+        <Label text="0, 1" row="0" col="1"></Label>
+        <Label text="0, 2" row="0" col="2"></Label>
+        <Label text="0, 3" row="0" col="3"></Label>
+        <Label text="1, 0" row="1" col="0"></Label>
+        <Label text="1, 1" row="1" col="1"></Label>
+        <Label text="1, 2" row="1" col="2"></Label>
+        <Label text="1, 3" row="1" col="3"></Label>
+        <Label text="2, 0" row="2" col="0"></Label>
+        <Label text="2, 1" row="2" col="1"></Label>
+        <Label text="2, 2" row="2" col="2"></Label>
+        <Label text="2, 3" row="2" col="3"></Label>
+        <Label text="3, 0" row="3" col="0"></Label>
+        <Label text="3, 1" row="3" col="1"></Label>
+        <Label text="3, 2" row="3" col="2"></Label>
+        <Label text="3, 3" row="3" col="3"></Label>
       </GridLayout>
     """
 
@@ -245,17 +245,17 @@
     "prefix": "nsscrollview"
     "body": """
       <ScrollView>
-          $1
+        $1
       </ScrollView>
     """
 
   "{N} List View":
     "prefix": "nslistview"
     "body": """
-      <ListView items="{{source}}"  loaded="{{onLoaded}}" itemLoading="{{onItemLoading}}" itemTap="{{onItemTap}}">
-          <ListView.itemTemplate>
-              $1
-          </ListView.itemTemplate>
+      <ListView items="{{source}}" loaded="{{onLoaded}}" itemLoading="{{onItemLoading}}" itemTap="{{onItemTap}}">
+        <ListView.itemTemplate>
+          $1
+        </ListView.itemTemplate>
       </ListView>
     """
 
@@ -263,18 +263,18 @@
     "prefix": "nstabview"
     "body": """
       <TabView id="tabViewContainer">
-          <TabView.items>
-              <TabViewItem title="Tab 1">
-                  <TabViewItem.view>
-                      <Label text="This is Label in Tab 1" />
-                  </TabViewItem.view>
-              </TabViewItem>
-              <TabViewItem title="Tab 2">
-                  <TabViewItem.view>
-                      <Label text="This is Label in Tab 2" />
-                  </TabViewItem.view>
-              </TabViewItem>
-          </TabView.items>
+        <TabView.items>
+          <TabViewItem title="Tab 1">
+            <TabViewItem.view>
+              <Label text="This is Label in Tab 1" />
+            </TabViewItem.view>
+          </TabViewItem>
+          <TabViewItem title="Tab 2">
+            <TabViewItem.view>
+              <Label text="This is Label in Tab 2" />
+            </TabViewItem.view>
+          </TabViewItem>
+        </TabView.items>
       </TabView>
       $1
     """
@@ -290,12 +290,14 @@
     "prefix": "nsrepeater"
     "body": """
       <Repeater items="{{ $1 }}">
-          <Repeater.itemsLayout>
-              <StackLayout />
-          </Repeater.itemsLayout>
-          <Repeater.itemTemplate>
-              $2
-          </Repeater.itemTemplate>
+        <Repeater.itemsLayout>
+          <StackLayout>
+            $2
+          </StackLayout>
+        </Repeater.itemsLayout>
+        <Repeater.itemTemplate>
+          $3
+        </Repeater.itemTemplate>
       </Repeater>
     """
 
@@ -304,7 +306,7 @@
     "prefix": "nspage"
     "body": """
       <Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo">
-          $1
+        $1
       </Page>
     """
 
