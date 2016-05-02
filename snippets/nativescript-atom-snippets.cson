@@ -282,7 +282,7 @@
       $1
     """
 
-  "{N} Repeater": {
+  "{N} Repeater":
     "prefix": "nsrepeater"
     "body": """
       <Repeater items="{{ $1 }}">
@@ -297,7 +297,7 @@
       </Repeater>
     """
 
-  "{N} Page": {
+  "{N} Page":
     "prefix": "nspage"
     "body": """
       <Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo">
@@ -418,7 +418,7 @@
           <SegmentedBarItem title="First" />
           <SegmentedBarItem title="Second" />
           <SegmentedBarItem title="Third" />
-          $1"
+          $1
         </SegmentedBar.items>
       </SegmentedBar>
     """
@@ -492,5 +492,5 @@
     "body": 'width="$1"$2'
 
   "{N} Height Attribute":
-    "prefix":"height"
-    "body": "height=\"$1\"$2"
+    "prefix": "height"
+    "body": 'height="$1"$2'
