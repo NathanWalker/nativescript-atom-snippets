@@ -5,7 +5,6 @@
 # NativeScript snippets
 
 '.text.xml' :
-  ## Action Bar #####################################################################
   "{N} Action Bar":
     "prefix": "nsactionbar"
     "body": """
@@ -51,7 +50,6 @@
       </Page.actionBar>
     """
 
-  # Layouts
   "{N} Stack Layout":
     "prefix": "nsstack"
     "body": """
@@ -239,8 +237,6 @@
       </GridLayout>
     """
 
-
-  # Views
   "{N} Scroll View":
     "prefix": "nsscrollview"
     "body": """
@@ -301,7 +297,6 @@
       </Repeater>
     """
 
-  # Widgets
   "{N} Page": {
     "prefix": "nspage"
     "body": """
@@ -436,7 +431,6 @@
       </Border>
     """
 
-  # Attributes
   "{N} CSS Class Attribute":
     "prefix": "css"
     "body": 'class="$1"$2'
