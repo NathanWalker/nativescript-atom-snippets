@@ -5,7 +5,7 @@
 # NativeScript snippets
 
 '.text.xml' :
-## Action Bar #####################################################################
+  ## Action Bar #####################################################################
   "{N} Action Bar":
     "prefix": "nsactionbar"
     "body": """
@@ -435,7 +435,6 @@
         $3
       </Border>
     """
-
 
   # Attributes
   "{N} CSS Class Attribute":
