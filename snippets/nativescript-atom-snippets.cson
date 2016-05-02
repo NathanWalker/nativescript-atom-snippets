@@ -493,4 +493,4 @@
 
   "{N} Height Attribute":
     "prefix":"height"
-    "body":'height="$1"$2'
+    "body": "height=\"$1\"$2"
